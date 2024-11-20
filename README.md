@@ -60,7 +60,7 @@ An official docker image is available on the Gitlab container registry.
 Use it by pulling the following image:
 
 ```
-registry.gitlab.com/hectorjsmith/grafana-matrix-forwarder:latest
+vincejv/grafana-matrix-forwarder:latest
 ```
 
 Example run command:
@@ -70,7 +70,7 @@ docker run -d \
     -e GMF_MATRIX_USER=@user:matrix.org \
     -e GMF_MATRIX_PASSWORD=password \
     -e GMF_MATRIX_HOMESERVER=matrix.org \
-    registry.gitlab.com/hectorjsmith/grafana-matrix-forwarder:latest
+    vincejv/grafana-matrix-forwarder:latest
 ```
 
 Read the [documentation](https://hectorjsmith.gitlab.io/grafana-matrix-forwarder/) for more detail on using Docker.
